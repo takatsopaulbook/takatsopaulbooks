@@ -1,0 +1,151 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Takatso Paul Books</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #f4f9ff;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: skyblue;
+      padding: 1rem;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      font-size: 2rem;
+    }
+    .hero {
+      padding: 2rem;
+      text-align: center;
+      background: linear-gradient(to bottom right, skyblue, white);
+    }
+    .hero h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1rem;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .books {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+    .book {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 1rem;
+      width: 250px;
+      text-align: center;
+    }
+    .book img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 500px;
+      margin: auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, textarea {
+      padding: 0.8rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+    button {
+      background: skyblue;
+      color: white;
+      border: none;
+      padding: 0.8rem;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #3cb3dd;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Takatso Paul</h1>
+    <p>Official Website of the Author</p>
+  </header>  <section class="hero">
+    <h2>Welcome to My World of Books</h2>
+    <p>Explore divine wisdom and stories that shape our world and faith.</p>
+  </section>  <section class="section">
+    <h2>Featured Book</h2>
+    <div class="books">
+      <div class="book">
+        <img src="front-cover.jpg" alt="Front Cover">
+        <h3>Front Cover</h3>
+      </div>
+      <div class="book">
+        <img src="back-cover.jpg" alt="Back Cover">
+        <h3>Back Cover</h3>
+      </div>
+      <div class="book">
+        <img src="mockup.jpg" alt="Book Mockup">
+        <h3>Book Mockup</h3>
+      </div>
+      <div class="book">
+        <img src="collage.jpg" alt="Front and Back Collage">
+        <h3>Collage</h3>
+      </div>
+    </div>
+  </section>  <section class="section">
+    <h2>About the Book</h2>
+    <p>
+      <strong>TSHENOLO YA MONASARE: Maritsiwe a Makgotshwane</strong> is a powerful and spiritual reflection on society, our faith, and our collective responsibility to stand against the forces that seek to divide and harm. Takatso Paul Mokoena addresses the devastating impact of bullying, calling on every member of society to rise up with courage, compassion, and the strength of divine purpose. Through this book, readers will not only be enlightened by scriptural truths but also empowered to live in faith, love, and community.
+    </p>
+  </section>  <section class="section">
+    <h2>About the Author</h2>
+    <p>
+      <strong>Takatso Paul Mokoena</strong> is a South African author with a heart full of purpose and a passion for writing about the truth and the word of God. His vision is to inspire individuals, especially the youth, to walk in the light of faith, stand against injustice, and find strength in their relationship with the Almighty. He believes in the importance of using literature to uplift souls and transform lives. Takatso Paul is committed to sharing messages that bring hope, healing, and spiritual understanding.
+    </p>
+  </section>  <section class="section">
+    <h2>Contact the Author</h2>
+    <form action="https://formspree.io/f/myzeazdy" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p style="text-align:center; margin-top:1rem;">Email: <a href="mailto:takatso.paul.books@gmail.com">takatso.paul.books@gmail.com</a></p>
+  </section>  <footer>
+    <p>&copy; 2025 Takatso Paul. All rights reserved.</p>
+  </footer>
+</body>
+</html>
